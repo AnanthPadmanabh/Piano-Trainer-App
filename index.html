@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Ear Trainer for Pianists</title>
+        
+        <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0">
+            
+            <meta name="author" content="Anantha" />
+            <meta name="date" content="April 11th 2018" />
+                <script src="js/API/nexusUI-v2.js"></script>
+            
+                <script src="js/API/ToneR11.js"></script>
+        
+        <style>
+            body, html{
+                width:100%;
+<!--                height:100%;-->
+            }
+            div#buttons {
+                height:70%;
+                width:40%;
+                position : relative;
+                background: lightgrey;
+                margin: 20% auto;
+                margin-top: 25 %;
+                
+                background: light-grey;
+            }
+        
+        
+            div#blueSquare {
+                width: 25%;
+                height: 150px;
+                float:center;
+                margin: 5% auto;
+         
+                background: #4679bd;
+            }
+    
+        
+            div#pianokeys {
+                
+                position: relative;
+                float: center;
+            }
+        
+        </style>
+        
+        
+    </head>
+    <body>
+        
+        <div id="buttons">
+        
+        <div id="blueSquare"></div>
+        
+<!--        <input type="range" min="800" max="8000" value="5000" id="freq1"></input>-->
+
+
+        
+        <div nx="keyboard" id="pianokeys" ></div>
+        
+        </div>
+        
+        <script src="js/synth.js"></script>
+
+        
+    </body>
+</html>
+
